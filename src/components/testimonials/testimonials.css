@@ -1,0 +1,59 @@
+.payWise__testimonials h3{
+    text-align:center;
+    font-size:24px
+}
+
+.payWise__testimonials-box{
+    display:flex;
+    gap:5rem;
+    justify-content: center;
+}
+
+.payWise__testimonials-card{
+    position:relative;
+    padding:8rem 1rem;
+    border-radius:15.2px;
+    width:39.09%;
+    display:flex;
+   
+}
+
+.leftEdge{
+    position: absolute;
+    left:0;
+    top:0
+}
+.rightEdge{
+    position: absolute;
+    right:0;
+    bottom:0
+}
+
+.profilePic{
+    width:99.9px;
+    margin:-10rem auto 0 auto    
+}
+
+
+
+.payWise__testimonials-card_content{
+    position: relative;
+    background-color: var(--secondary-color);
+    width: 80%;
+   margin:0 auto;
+   padding: 5rem 6rem 2rem 6rem;
+   border-radius:10px;
+   text-align:center
+}
+.payWise__testimonials-card_content p{
+    font-size:1.6rem;
+    color:#fff
+}
+
+@media screen and (max-width: 873px){
+    .payWise__testimonials-box{
+        flex-direction:column;
+        align-items:center;
+        justify-content: center;
+    }
+}
