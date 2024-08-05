@@ -1,3 +1,8 @@
+@font-face{
+  font-family:"Poppins";
+  src:url(assets/fonts/Poppins-Regular.ttf);
+  font-weight: normal;
+}
 :root {
    --navbar-color:#0F0024;
     --secondary-color: #6B00FF;
@@ -10,9 +15,76 @@
   padding: 0;
   margin: 0;
   scroll-behavior: smooth;
+  font-size: 62.5%;
+  font-family: "Poppins";
+}
+
+ul{
+  list-style: none;
+}
+li a{
+  font-size: 1.6rem;
 }
 
 a {
   color: unset;
   text-decoration: none;
+
+}
+
+
+
+.section__padding {
+  padding: 4rem 6rem;
+}
+
+.section__margin {
+  margin: 4rem 6rem;
+}
+
+@media screen and (max-width: 700px) {
+  .section__padding {
+    padding: 4rem;
+  }
+
+  .section__margin {
+    margin: 4rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .section__padding {
+    padding: 4rem 2rem;
+  }
+
+  .section__margin {
+    margin: 4rem 2rem;
+  }  
+}
+
+.scale-up-center {
+	-webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+@-webkit-keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
 }

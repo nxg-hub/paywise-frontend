@@ -1,5 +1,5 @@
 import Footer from "./footer/Footer";
-import Introduction from "./introduction/Introduction";
+import HeroPage from "./heroPage/HeroPage";
 import Navbar from "./navbar/Navbar";
 import NewsLetter from "./newsLetter/NewsLetter";
 import Services from "./services/Services";
@@ -7,7 +7,7 @@ import Testimonials from "./testimonials/Testimonials";
 
 export{
     Footer,
-    Introduction,
+    HeroPage,
     Navbar,
     NewsLetter,
     Services,

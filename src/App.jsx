@@ -1,11 +1,11 @@
 import React from 'react'
-import { Footer, Introduction, Navbar, NewsLetter, Services, Testimonials } from './components'
+import { Footer, HeroPage, Navbar, NewsLetter, Services, Testimonials } from './components'
 
 const App = () => {
   return (
     <div>
       <Navbar/>
-      <Introduction/>
+      <HeroPage/>
       <Services/>
       <Testimonials/>
       <NewsLetter/>
