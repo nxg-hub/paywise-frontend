@@ -4,18 +4,22 @@
 }
 
 .payWise__testimonials-box{
-    display:flex;
-    gap:5rem;
-    justify-content: center;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+    justify-items: center;
+    align-items: center;
+    
 }
 
 .payWise__testimonials-card{
     position:relative;
     padding:8rem 1rem;
     border-radius:15.2px;
-    width:39.09%;
-    display:flex;
-   
+    
+    
+  
+
 }
 
 .leftEdge{
@@ -50,10 +54,49 @@
     color:#fff
 }
 
+.payWise__testimonials_card-ratings{
+    display:flex;
+    justify-content:center
+}
+
+.payWise__testimonials-card_triangle{
+    width:0;
+    height:0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid var(--secondary-color);
+    padding:.3rem;
+    margin:0 auto
+}
+
 @media screen and (max-width: 873px){
     .payWise__testimonials-box{
-        flex-direction:column;
-        align-items:center;
+        grid-template-columns: 1fr;
         justify-content: center;
+        align-items: center;
+        margin:0 auto
     }
+  
 }
+
+@media screen and (max-width: 435px){
+    
+    .payWise__testimonials-box{
+        width: 100%;
+       
+        
+    }
+
+    .payWise__testimonials h3{
+        font-size: 1.5rem
+    }
+
+    .payWise__testimonials-card_content p{
+        font-size:.8rem
+    }
+
+   
+}
+
+
+
