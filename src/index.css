@@ -32,7 +32,11 @@ a {
 
 }
 
-
+img{
+  max-width: 100%;
+  height:auto;
+  display:block
+}
 
 .section__padding {
   padding: 4rem 6rem;

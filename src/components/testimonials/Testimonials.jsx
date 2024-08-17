@@ -23,7 +23,11 @@ const Testimonials = () => {
 <img src={item.pic} alt="image" className="profilePic"/>
 <img src={item.quote} alt="image" className="q" style={{position:'absolute',left:"5%",bottom:'80%'}}/>
 <p>{item.content}</p>
-<div className="rati">
+<div className="payWise__testimonials_card-ratings">
+<img src={item.star} alt="image"/>
+<img src={item.star} alt="image"/>
+<img src={item.star} alt="image"/>
+<img src={item.star} alt="image"/>
 <img src={item.star} alt="image"/>
 </div>
 </div>
