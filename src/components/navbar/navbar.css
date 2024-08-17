@@ -8,7 +8,7 @@
 
 .payWise__navbar-menu {
     margin-left: 1rem;
-   
+   z-index: 1;
     position: relative;
 }
 
@@ -35,7 +35,7 @@
     box-shadow: 0px 0px 5px rgba(0,0, 0,0.2);
 }
 
-.payWise__navbar-menu_container li {
+.payWise__navbar-menu_container  a li {
     margin: 1rem 0;
 }
 

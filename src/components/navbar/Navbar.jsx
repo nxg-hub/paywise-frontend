@@ -21,7 +21,7 @@ function Navbar() {
             return(
               <>
               <ul>
-        <li key={i}><a href={item.id}>{item.title}</a></li>
+              <li key={i}><a href={item.id}> {item.title}</a></li>
               </ul>
               </>
             )

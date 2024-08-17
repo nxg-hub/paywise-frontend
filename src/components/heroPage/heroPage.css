@@ -4,13 +4,19 @@
     text-align: center;
     font-size:4rem;   
     line-height: 60px;
+   
 }
 
-.payWise__heroPage_header h2 span{
+
+
+.payWise__heroPage_header h2 .rotating-word-container span{
     display: block;
     color:var(--secondary-color);
-    font-size: 4rem
+    font-size: 4rem;
+    font-weight: bold
 }
+
+
 
 .payWise__heroPage_downloads{
     display: flex;
@@ -40,7 +46,7 @@
     color:#fff;
 }
 
-payWise__heroPage_downloads-links p span{
+.payWise__heroPage_downloads-links p span{
     font-size: 2rem;
     color:#fff;
 }
@@ -50,6 +56,56 @@ payWise__heroPage_downloads-links p span{
     font-size: 1.6rem;
 }
 
+.rotating-word-container {
+    position: relative;
+    height: 2em; /* Adjust based on your font-size */
+    overflow: hidden;
+    display: block;
+   
+  }
+  
+  .rotating-word {
+    display: block;
+   
+    width: 100%;
+    transition: transform 1s cubic-bezier(0.4, 0.0, 0.2, 1), opacity 0s 1s;
+  }
+  
+  .out-down {
+    transform: translateY(100%);
+  }
+  
+  .out-up {
+    transform: translateY(-100%);
+  }
+  
+  .in-up {
+    transform: translateY(100%);
+    animation: slide-in-up 1s forwards;
+  }
+  
+  .in-down {
+    transform: translateY(-100%);
+    animation: slide-in-down 1s forwards;
+  }
+  
+  @keyframes slide-in-up {
+    from {
+      transform: translateY(100%);
+    }
+    to {
+      transform: translateY(0%);
+    }
+  }
+  
+  @keyframes slide-in-down {
+    from {
+      transform: translateY(-100%);
+    }
+    to {
+      transform: translateY(0%);
+    }
+  }
 @media screen and (max-width: 490px) {
     .payWise__heroPage_header h2 {
         display: block;
@@ -57,7 +113,7 @@ payWise__heroPage_downloads-links p span{
         font-size: 32px;
         line-height: 48px;
     }
-    .payWise__heroPage_header h2 span{
+    .payWise__heroPage_header h2 .rotating-word-container span{
         font-size: 32px;
     }
 

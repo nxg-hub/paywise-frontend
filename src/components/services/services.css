@@ -1,0 +1,36 @@
+
+
+
+.payWise__services-container{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-gap: 5rem;
+    align-items: center; 
+}
+
+.service{
+    grid-row: 2/3;
+}
+
+.payWise__services h2{
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 3rem;
+}
+
+@media screen and (max-width:540px) {
+    .payWise__services-container{
+        grid-template-columns: 1fr;
+    }
+    
+    
+
+    .payWise__services-container_box:nth-child(2){
+        flex-direction: row-reverse;
+    }
+
+    .service{
+        grid-row: unset;
+    }
+}

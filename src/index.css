@@ -3,6 +3,12 @@
   src:url(assets/fonts/Poppins-Regular.ttf);
   font-weight: normal;
 }
+
+@font-face{
+  font-family:"Poppins";
+  src:url(assets/fonts/Poppins-Bold.ttf);
+  font-weight: bold;
+}
 :root {
    --navbar-color:#0F0024;
     --secondary-color: #6B00FF;
@@ -17,19 +23,21 @@
   scroll-behavior: smooth;
   font-size: 62.5%;
   font-family: "Poppins";
+ 
 }
 
 ul{
   list-style: none;
 }
-li a{
+ li a{
   font-size: 1.6rem;
+  cursor: pointer;
 }
 
 a {
   color: unset;
   text-decoration: none;
-
+  cursor: pointer;
 }
 
 img{
