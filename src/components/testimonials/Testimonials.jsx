@@ -6,7 +6,7 @@ import {testimonials} from "../../constants"
 const Testimonials = () => {
   return (
     <>
-    <div className="payWise__testimonials">
+    <div className="payWise__testimonials" id="about-us">
     <h3 className='payWise__testiomonials-header'>Hear from our customers</h3>
   
   <div className="payWise__testimonials-box section__padding">
@@ -38,7 +38,7 @@ const Testimonials = () => {
   }
   </div>
   </div>
-      testimonials
+      
     </>
   )
 }

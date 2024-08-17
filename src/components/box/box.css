@@ -1,0 +1,163 @@
+.payWise__services-container_box{
+    box-shadow: 0px 4.97px 4.97px 0px #00000040;
+    background-color: #DCDCDC;
+    display:flex;
+   width:100%;
+
+   min-height: 525px;
+   border-radius:12.43px;
+   padding: 1rem 3rem 15rem 3rem;
+   transition: all 5s ease-in-out;
+   position: relative;
+}
+
+ .serviceImg{
+ position:absolute;
+ bottom:0;
+ right:2%
+    
+}
+
+.img{
+    width:112.82px;
+    
+}
+
+
+
+.text-width{
+    max-width: 441px;
+}
+
+
+
+.fade-text{
+    transition:opacity 0.5s ease-in-out;
+}
+
+.fade-in{
+    opacity: 1;
+}
+
+.fade-out{
+    opacity: 0;
+}
+
+.payWise__services-container_box h3{
+    font-size:2.4rem;
+    
+}
+
+.payWise__services-container_box h4{
+    font-size:2rem;
+    color: var(--secondary-color);
+}
+
+.payWise__services-container_box p{
+    font-size:1.6rem;
+    margin-top: 1rem;
+}
+
+
+
+
+.background1{
+    background-image:  url("src/assets/heart.svg");
+    background-repeat: no-repeat;
+    
+ }
+ 
+ .background2{
+     background-image:   url("src/assets/arrows.svg");
+     background-repeat: no-repeat;
+     background-position: right bottom;
+    
+  }
+ 
+  .background3{
+     background-image:  url("src/assets/currency.svg");
+     background-repeat: no-repeat;
+  }
+
+
+
+
+
+  @media screen and (max-width:853px) {
+    .payWise__services-container_box p{
+        font-size:1.2rem;
+        
+    }
+
+    .payWise__services-container_box h3{
+        font-size: 2rem;
+    }
+
+    
+    .payWise__services-container_box h4{
+        font-size: 1.6rem;
+    }
+
+    .payWise__services-container_box{
+        min-height: unset;
+    }
+
+    .payWise__services-container_box{
+        gap:2rem;
+    }
+
+.serviceImg{
+    position: initial;
+    width: 90.73px;
+    margin-top: 17rem;
+}
+
+.payWise__services-container_box{
+    padding:0 1rem
+}
+
+.smallImg{
+    width:90px;
+    margin-top: 15rem;
+    
+    
+}
+
+
+
+.service__center{
+    text-align: right;
+    
+}
+.img{
+    width:90.73px
+}
+
+
+.service{
+    min-height: 295px;
+    
+}
+
+.service h3{
+    text-align: center;
+}
+
+}
+    
+@media screen and (max-width:912px){
+    .midImg{
+        width: 100px;
+        position:absolute;
+    bottom:0;
+        right:2%
+    
+    }
+}
+
+@media screen and (max-width:912px){
+    .midImg{
+        position: initial;
+        margin-top: 15rem;
+    }
+}
