@@ -19,8 +19,23 @@
 .paywise__newsletter p{
     font-size: 2rem;
     line-height: 21.12px;
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
 }
+
+.paywise__newsletter ul li strong{
+    font-size:  1.6rem;  
+}
+
+.paywise__newsletter ul li{
+    font-size:  1.6rem;  
+}
+
+.paywise__newsletter ul{
+    font-size:  1.6rem;   
+    margin-bottom: 3rem;
+}
+
+
 
 form {
     display:flex;
@@ -77,6 +92,24 @@ input{
 
     .paywise__newsletter p{
         font-size:  1.6rem
+    }
+
+    .paywise__newsletter ul li{
+        font-size:  1.6rem
+    }
+
+    .paywise__newsletter ul li strong{
+        font-size:  1.6rem;  
+    }
+    
+    .paywise__newsletter ul li{
+        font-size:  1.6rem;  
+        margin-bottom: 2rem;
+    }
+    
+    .paywise__newsletter ul{
+        font-size:  1.6rem;   
+        margin-bottom: 3rem;
     }
 
     .form button{

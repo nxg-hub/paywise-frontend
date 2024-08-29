@@ -54,6 +54,11 @@
     color:#fff
 }
 
+.payWise__testimonials-card_content p strong{
+    font-size:1.6rem;
+    color:#fff
+}
+
 .payWise__testimonials_card-ratings{
     display:flex;
     justify-content:center
@@ -90,10 +95,19 @@
    
 
     .payWise__testimonials-card_content p{
-        font-size:.8rem
+        font-size:1rem
     }
 
-   
+    .payWise__testimonials-card_content p strong{
+        font-size:1rem;
+        color:#fff
+    }
+
+    .payWise__testimonials-card_content{
+       padding: 5rem 1rem 2rem 1rem;
+       
+    }
+    
 }
 
 

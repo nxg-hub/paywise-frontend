@@ -1,5 +1,6 @@
 import appStore from "../assets/appstore.svg"
 import arrows from "../assets/arrows.svg"
+import email from "../assets/foot-email.svg"
 import community from "../assets/community.svg"
 import currency from "../assets/currency.svg"
 import heart from "../assets/heart.svg"
@@ -44,7 +45,8 @@ bottomRight:bottomRight,
 facebook:facebook,
 twitter:twitter,
 linkedIn:linkedIn,
-google:google
+google:google,
+email:email
 }
 
 
@@ -122,7 +124,8 @@ export const testimonials =[
         pic:images.pic1,
         quote:images.quote,
         star:images.star,
-        content:"Vero voluptates voluptate rem corrupti repudiandae similique nisi qui."
+        content:['"A Game-Changer for My Finances!"','"Switching to Paywise has completely transformed how I manage my money. The real-time notifications and budget tracking features keep me on top of everything. I can’t imagine going back to my old way of doing things."','"— Mark S., Freelance Designer"']
+        
 
     },
     {
@@ -132,7 +135,9 @@ export const testimonials =[
         pic:images.pic2,
         quote:images.quote,
         star:images.star,
-        content:"Vero voluptates voluptate rem corrupti repudiandae similique nisi qui."
+       content:['"Seamless and Reliable!"','"I’ve been using Paywise for all my transactions, and it has never let me down. The app is easy to use, and the customer support is fantastic. Whether I’m paying bills or transferring money, I know I’m in good hands."',
+        '"— Jane D., Small Business Owner"',
+       ]
     }
 ]
 
@@ -167,5 +172,9 @@ export const logos =[
     },
     {
         img:images.google
-    }
+    },
+    {
+        img:images.email
+    },
+   
 ]

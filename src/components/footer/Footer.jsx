@@ -1,7 +1,7 @@
 import React from 'react'
 import "./footer.css"
 import logo from "../../assets/Vector.svg";
-
+import { AiTwotoneMail } from "react-icons/ai";
 import { navLinks,logos} from '../../constants';
 const Footer = () => {
   return (
@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="payWise__footer section__padding">
     <div className="payWise__footer-header">
       <img src={logo} alt="image" className="footerLogo"/>
-      <p>© 2022 All rights reserved</p>
+      <p>© 2024 All rights reserved</p>
     </div>
     <div className="payWise__footer-links">
      
@@ -41,8 +41,9 @@ const Footer = () => {
     
     <div className="payWise__footer-icons">
       {
-        logos.map((item,i)=>(<img key={i} src={item.img} alt='images'/>))
+        logos.map((item,i)=>(<a href="#"><img key={i} src={item.img} alt='images'/></a>))
       }
+      <AiTwotoneMail />
     </div>
       </div>
     </>
